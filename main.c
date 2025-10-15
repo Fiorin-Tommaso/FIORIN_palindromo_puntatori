@@ -11,7 +11,7 @@ int verify(char palindromo[]) {
             break;
         }
         if (*p == ' ') {
-
+            true = 0;
         }
     }
     return true;
